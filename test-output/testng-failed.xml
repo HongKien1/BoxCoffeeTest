@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="BoxDaoTest">
+        <methods>
+          <include name="TestGetMaxId"/>
+          <include name="TestSelectAll"/>
+          <include name="TestFindById"/>
+          <include name="TestUpdate" invocation-numbers="0"/>
+          <include name="insert" invocation-numbers="2"/>
+          <include name="TestDelete"/>
+          <include name="TestFinByKeyword"/>
+          <include name="TestFindByBoxType"/>
+          <include name="setUp"/>
+          <include name="TestPagination"/>
+        </methods>
+      </class> <!-- BoxDaoTest -->
+      <class name="HoaDonDaoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TestSelectById"/>
+        </methods>
+      </class> <!-- HoaDonDaoTest -->
+      <class name="KhuyenMaiDaoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TestFinByCondition"/>
+          <include name="TestFinByKeyword"/>
+          <include name="insert" invocation-numbers="2 3"/>
+          <include name="TestDelete"/>
+          <include name="TestFindById"/>
+        </methods>
+      </class> <!-- KhuyenMaiDaoTest -->
+      <class name="com.boxcf.dao.NhanVienDaoTest">
+        <methods>
+          <include name="TestPagination"/>
+          <include name="insert" invocation-numbers="2"/>
+          <include name="TestFindByBoxType"/>
+          <include name="setUp"/>
+          <include name="TestFindById"/>
+          <include name="TestFinByKeyword"/>
+          <include name="TestSelectAll"/>
+          <include name="TestUpdate"/>
+          <include name="TestInsert"/>
+          <include name="TestDelete"/>
+          <include name="TestGetMaxId"/>
+        </methods>
+      </class> <!-- com.boxcf.dao.NhanVienDaoTest -->
+      <class name="SanPhamDaoTest">
+        <methods>
+          <include name="TestUpdate"/>
+          <include name="TestDelete"/>
+          <include name="TestSelectByTenLoaiSP"/>
+          <include name="setUp"/>
+          <include name="clear"/>
+          <include name="TestGetEqua"/>
+          <include name="TestGet"/>
+          <include name="TestInsertSuccessfuly"/>
+          <include name="TestSelectByKeyWordType1"/>
+        </methods>
+      </class> <!-- SanPhamDaoTest -->
+      <class name="ComboDaoTest">
+        <methods>
+          <include name="TestSelectAll"/>
+          <include name="TestDelete"/>
+          <include name="TestInsert"/>
+          <include name="TestUpdate"/>
+          <include name="TestSelectById"/>
+          <include name="TestSelectByKeyWord"/>
+          <include name="TestPagination"/>
+          <include name="TestSelectByMaLoaiBox"/>
+          <include name="setUp"/>
+          <include name="TestMaxId"/>
+        </methods>
+      </class> <!-- ComboDaoTest -->
+      <class name="NhanVienDaoTest">
+        <methods>
+          <include name="TestDelete"/>
+          <include name="insert" invocation-numbers="2 5"/>
+          <include name="setUp"/>
+          <include name="TestLogin"/>
+          <include name="TestFinByKeyword"/>
+        </methods>
+      </class> <!-- NhanVienDaoTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,219 @@
+.red-color {
+    color: #b0333e;
+    padding: 0 60px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.about-banner {
+    position: relative;
+    height: 400px;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('../images/building1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-banner-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 10px var(--light-blue);
+}
+
+.introduce {
+    margin: 60px auto;
+    padding: 0 80px;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduce__desc i {
+    font-size: 8px;
+    margin-right: 6px;
+}
+
+.introduce__info {
+    margin-right: 48px;
+    flex: 2;
+}
+
+.introduce__heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+
+    margin-bottom: 24px;
+    color: #031b49;
+}
+
+.introduce__desc {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    text-align: justify;
+    padding: 0 24px;
+}
+
+.introduce__img_login {
+    width: 350;
+    height: 350px;
+    object-fit: cover;
+}
+
+.introduce__img_doimk {
+    width: 450;
+    height: 300px;
+    object-fit: cover;
+}
+
+.introduce__img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mission {
+    height: 400px;
+    padding: 64px 200px;
+    background-color: #f5faff;
+}
+
+.mission__heading,
+.progress__heading,
+.mentors__heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+
+    color: var(--black);
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mission p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.mission__desc {
+    padding: 16px;
+    margin-top: 32px;
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-color: var(--blue);
+}
+
+.mission__desc span {
+    color: var(--light-green);
+    font-weight: 700;
+}
+
+.progress {
+    padding: 16px 64px;
+    margin-bottom: 32px;
+}
+
+.progress__content {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.progress__item {
+    flex: 1;
+    text-align: center;
+}
+
+.progress__content ion-icon {
+    font-size: 8rem;
+    color: var(--blue);
+}
+
+.progress__content p {
+    font-size: 1.6rem;
+}
+
+.progress__content .number {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 6px 2px 16px;
+    color: var(--blue);
+}
+
+.mentors {
+    padding: 48px 0 32px 0;
+}
+
+.mentors__list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.mentors__item {
+    width: 20%;
+    padding: 16px;
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mentors__img {
+    width: 100%;
+    height: 163px;
+    object-fit: cover;
+    transition: 0.3s linear;
+}
+
+.mentors__name {
+    font-weight: 700;
+    color: var(--bold-blue);
+}
+
+.mentors__img:hover {
+    transform: scale(1.04);
+}
+
+.mentors__info {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.mentors__name {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.mentors__exp {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.mentors__socials {}
+
+.mentors__link {
+    text-decoration: none;
+}
+
+.mentors__link i {
+    font-size: 2rem;
+    margin-right: 6px;
+    color: var(--bold-blue);
+}
+
+.mentors__link:hover i {
+    color: var(--orange);
+}

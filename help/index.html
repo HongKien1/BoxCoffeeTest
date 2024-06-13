@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Pro-code</title>
+    <!-- font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- header starts -->
+        <header class="header--blue">
+            <div class="grid wide">
+                <div class="header__container">
+                    <a href="index.html" class="header__logo header__logo--blue">
+                        <i class="fas fa-lightbulb"></i>BOX CAFE
+                    </a>
+
+                    <div class="header__search">
+                        <input type="text" name="" id="" class="header__search-input"
+                            placeholder="Bạn đang tìm kiếm...">
+                        <a href="" class="header__search-btn"><i class="fas fa-search"></i></a>
+                    </div>
+
+                    <ul class="navbar">
+                        <li class="navbar__item">
+                            <a href="index.html"
+                                class="navbar__link navbar__link--active navbar__link--active-blue">Trang chủ</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="about.html" class="navbar__link navbar__link--blue">Giới thiệu</a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="./about.html#introduce" class="subnav__link">Lịch sử hình thành</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="./about.html#mission" class="subnav__link">Tầm nhìn & Sứ mệnh</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="./about.html#mentors" class="subnav__link">Đội ngũ Mentor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./course.html#course__container" class="navbar__link navbar__link--blue">Khóa
+                                học</a>
+
+                            <ul class="subnav2">
+                                <li class="subnav2__item">
+                                    <a href="./course.html#course__container" class="subnav2__link">Danh sách khóa
+                                        học</a>
+                                </li>
+                                <li class="subnav2__item">
+                                    <a href="./course-details.html#courses__container" class="subnav2__link">Chi tiết
+                                        khóa học</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="contact.html" class="navbar__link navbar__link--blue">Liên hệ</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./index.html#registration"
+                                class="navbar__link navbar__link--border navbar__link--border-blue">Try For Free</a>
+                        </li>
+                        <div class="header__user">
+                            <span href="#contact" class="navbar__user" id="navbar__user--blue"><i
+                                    class="fas fa-user navbar__link--blue"></i></span>
+                            <span href="#contact" class="navbar__cart">
+                                <i class="fa-solid fa-cart-arrow-down navbar__link--blue"></i>
+                                <div class="empty__cart">
+                                    <img src="./assets/images/empty-cart.png" alt="" class="empty__cart-img">
+                                    <div class="empty__cart-noti">Hiện chưa có sản phẩm nào</div>
+                                </div>
+                            </span>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__container">
+                    <a href="index.html" class="header__logo">
+                        <i class="fas fa-lightbulb"></i>BOX CAFE
+                    </a>
+
+                    <div class="header__search">
+                        <input type="text" name="" id="" class="header__search-input"
+                            placeholder="Bạn đang tìm kiếm...">
+                        <a href="" class="header__search-btn"><i class="fas fa-search"></i></a>
+                    </div>
+
+                    <ul class="navbar">
+                        <li class="navbar__item">
+                            <a href="index.html" class="navbar__link navbar__link--active">Trang chủ</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link">Giới thiệu</a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="./about.html#introduce" class="subnav__link">Lịch sử hình thành</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="./about.html#mission" class="subnav__link">Tầm nhìn & Sứ mệnh</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="./about.html#mentors" class="subnav__link">Đội ngũ Mentor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./course.html#course__container" class="navbar__link">Khóa học</a>
+
+                            <ul class="subnav2">
+                                <li class="subnav2__item">
+                                    <a href="./course.html#course__container" class="subnav2__link">Danh sách khóa
+                                        học</a>
+                                </li>
+                                <li class="subnav2__item">
+                                    <a href="./course-details.html#courses__container" class="subnav2__link">Chi tiết
+                                        khóa học</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="contact.html" class="navbar__link">Liên hệ</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./index.html#registration" class="navbar__link navbar__link--border">Try For
+                                Free</a>
+                        </li>
+                        <div class="header__user">
+                            <span href="#contact" class="navbar__user" id="navbar__user"><i
+                                    class="fas fa-user"></i></span>
+                            <span href="#contact" class="navbar__cart">
+                                <i class="fa-solid fa-cart-arrow-down"></i>
+                                <div class="empty__cart">
+                                    <img src="./assets/images/empty-cart.png" alt="" class="empty__cart-img">
+                                    <div class="empty__cart-noti">Hiện chưa có sản phẩm nào</div>
+                                </div>
+                            </span>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- header ends -->
+
+        <!-- login form starts -->
+        <div id="modal" class="modal">
+            <div id="modal__container" class="modal__container">
+                <a href="" class="modal__close"><i class="fas fa-times"></i></a>
+                <div class="modal__content">
+                    <div class="action-btn">
+                        <a href="" class="btn btn--orange login-btn">Đăng nhập</a>
+                        <a href="" class="btn btn--orange register-btn">Đăng ký</a>
+                    </div>
+
+                    <form action="" class="login-form open">
+                        <h3 class="login-form__heading">ĐĂNG NHẬP</h3>
+                        <div class="login-form__body">
+                            <input type="text" class="login-form__input" placeholder="Nhập email của bạn">
+                            <input type="text" class="login-form__input" placeholder="Nhập password của bạn">
+                            <div class="option">
+                                <div><input type="checkbox" name="" id=""><label for="">Lưu mật khẩu</label></div>
+                                <a href="" class="forgot-password">quên mật khẩu?</a>
+                            </div>
+                            <a href="" class="btn center">login now</a>
+                        </div>
+                    </form>
+
+                    <form action="" id="register-form" class="register-form">
+                        <h3 class="login-form__heading">ĐĂNG KÝ</h3>
+                        <div class="login-form__body">
+                            <input type="text" class="login-form__input" placeholder="Nhập email">
+                            <input type="text" class="login-form__input" placeholder="Nhập password">
+                            <input type="text" class="login-form__input" placeholder="Nhập lại password">
+                            <a href="" class="btn center mt-16">register now</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- login form ends-->
+
+        <!-- banner -->
+        <div class="about-banner">
+            <h3 class="about-banner-text">Hướng dẫn sử dụng phần mềm</h3>
+        </div>
+        <!-- banner end-->
+
+
+        <!-- container -->
+        <div class="about__container">
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        1. Hướng dẫn đăng nhập
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chạy ứng dụng <br>
+                        <i class="fa-solid fa-circle"></i> Nhập <span class="bold">Username</span> và <span
+                            class="bold">Password</span> (mặc
+                        định) để đăng nhập vào ứng
+                        dụng <br>
+                        <small class="red-color"> Username: hantlpc04927</small><br>
+                        <small class="red-color"> Password: 123456</small><br>
+                        <i class="fa-solid fa-circle"></i> Nhấn nút <span class="bold">Đăng Nhập</span> để đăng nhập, nhấn
+                        <span class="bold">X</span>
+                        để hủy bỏ<br>
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img_login" src="./assets/images/login.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        2. Giao diện chính
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Giao diện chính được thiết kế với thanh Menu đứng bên trái,
+                        bạn có thể dễ dàng
+                        di chuyển qua lại các tab quản lý khác nhau.<br>
+                        <i class="fa-solid fa-circle"></i> Để sử dụng một giao diện quản lý nào đó, bạn cần click vào
+                        biểu tượng label tương ứng.<br>
+                        <i class="fa-solid fa-circle"></i> Một giao diện quản lý mới sẽ hiện ra<br>
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img_doimk" src="./assets/images/Home.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        3. Đổi mật khẩu
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn giao diện Đổi mật khẩu (biểu tượng bánh răng cưa) <br>
+                        <i class="fa-solid fa-circle"></i> Tên username của bạn sẽ được hệ thống ghi nhận tự động, bạn
+                        cần nhập
+                        <span class="bold">mật khẩu hiện tại</span>, <span class="bold">mật khẩu mới</span> và <span
+                            class="bold">xác nhận
+                            lại mật khẩu</span> để thay đổi
+                        mật khẩu <br>
+                        <i class="fa-solid fa-circle"></i> Nhấn nút <span class="bold">Change</span> để đổi mật khẩu,
+                        nhấn <span class="bold">Cancel</span> để hủy bỏ
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img_doimk" src="./assets/images/changePass.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        4. Quản lý nhân viên
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn tab <span class="bold">Nhân viên</span> thanh menu <br>
+                        <i class="fa-solid fa-circle"></i> Giao diện Quản lý nhân viên bao gồm: <span
+                            class="bold">Thêm, Xóa</span> và <span class="bold">Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Double Click vào một nhân viên</span> để thực hiện các
+                        chức năng <span class="bold"> Sửa, Xóa</span>
+                        nhân viên <br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Danh sách</span> sẽ hiển thị toàn bộ
+                        nhân viên được lưu trong
+                        dữ liệu
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/nhanvien.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        5. Các chức năng Thêm - Làm mới
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">New</span> để xóa trắng form <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Add</span> để thêm 1 nhân viên mới
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Khi thêm mới bắt buộc phải nhập đầy đủ thông tin và thông tin
+                        phải hợp lệ<br>
+
+                    </p><br><br><br>
+
+                    <h3 class="introduce__heading">
+                        6. Chức năng Cập nhật - Xóa - Điều hướng
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Để sử dụng các chức năng này, bạn phải click chọn vào 1 hàng
+                        trên
+                        bảng trong <span class="bold">Tab Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> Nút<span class="bold"> Edit</span> để cập nhật thông tin nhân
+                        viên đang xem <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Del</span> để xóa nhân viên vừa chọn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Các nút điều hướng để di chuyển qua lại, quay về đầu hoặc
+                        cuối danh sách
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/nhanvien2.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        7. Quản lý khuyến mãi
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn tab <span class="bold">khuyến mãi</span> thanh menu <br>
+                        <i class="fa-solid fa-circle"></i> Giao diện Quản lý khuyến mãi sẽ bao gồm <span
+                            class="bold">Thêm, Xóa</span> và <span class="bold">Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Double Click vào khuyến mãi</span> dùng để thực hiện các
+                        chức năng <span class="bold">Sửa, Xóa</span>
+                        khuyến mãi <br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Danh sách</span> sẽ hiển thị toàn bộ
+                        khuyến mãi được lưu trong
+                        dữ liệu
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/khuyenmai.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        8. Các chức năng Thêm - Làm mới
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">New</span> để xóa trắng form <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Add</span> để thêm 1 chuyên đề mới
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Khi thêm mới bắt buộc phải nhập đầy đủ thông tin và thông tin
+                        phải hợp lệ<br>
+
+                    </p><br><br><br>
+
+                    <h3 class="introduce__heading">
+                        9. Chức năng Cập nhật - Xóa - Điều hướng
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Để sử dụng các chức năng này, bạn phải click chọn vào 1 hàng
+                        trên
+                        bảng trong <span class="bold">Tab Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> Nút<span class="bold"> Edit</span> để cập nhật thông tin
+                        chuyên đề đang xem <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Del</span> để xóa chuyên đề vừa chọn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Các nút điều hướng để di chuyển qua lại, quay về đầu hoặc
+                        cuối danh sách
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/themkhuyenmai.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        10. Quản lý box
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn tab <span class="bold">box</span> trên thanh menu
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Giao diện Quản lý box sẽ bao gồm <span
+                            class="bold">Cập nhật</span> và <span class="bold">Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Tab Cập nhật</span> dùng để thực hiện các
+                        chức năng <span class="bold">Thêm, Sửa, Xóa</span>
+                        box <br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Tab Danh sách</span> sẽ hiển thị toàn bộ
+                        box được lưu trong
+                        dữ liệu
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/qlBox.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        11. Các chức năng Thêm - Làm mới
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">New</span> để xóa trắng form <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Add</span> để thêm 1 người học mới
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Khi thêm mới bắt buộc phải nhập đầy đủ thông tin và thông tin
+                        phải hợp lệ<br>
+
+                    </p><br><br><br>
+
+                    <h3 class="introduce__heading">
+                        12. Cập nhật - Xóa - Điều hướng - Tìm kiếm
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Để sử dụng các chức năng này, bạn phải click chọn vào 1 hàng
+                        trên
+                        bảng trong <span class="bold">Tab Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> Nút<span class="bold"> Edit</span> để cập nhật thông tin
+                        người học đang xem <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Del</span> để xóa người học vừa chọn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Các nút điều hướng để di chuyển qua lại, quay về đầu hoặc
+                        cuối danh sách, phân trang <br>
+                        <i class="fa-solid fa-circle"></i> Bạn có thể lựa chọn thông tin muốn tìm kiếm và nhập từ khóa
+                        vào ô tìm kiếm -> Nhấn nút <span class="bold"> Tìm kiếm</span>
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/themLoaiBox.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        13. Quản lý sản phẩm
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn tab <span class="bold">sản phẩm</span> trên thanh menu
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Giao diện Quản lý sản phẩm sẽ chứa 2 tab <span
+                            class="bold">Cập nhật</span> và <span class="bold">Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Tab Cập nhật</span> dùng để thực hiện các
+                        chức năng <span class="bold">Thêm, Sửa, Xóa</span>
+                        sản phẩm <br>
+                        <i class="fa-solid fa-circle"></i> <span class="bold">Tab Danh sách</span> sẽ hiển thị toàn bộ
+                        sản phẩm được lưu trong
+                        dữ liệu
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/sanpham.jpg">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        14. Các chức năng Thêm - Làm mới
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">New</span> để xóa trắng form <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Add</span> để thêm 1 khóa học mới
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Khi thêm mới bắt buộc phải nhập đầy đủ thông tin và thông tin
+                        phải hợp lệ<br>
+
+                    </p><br><br><br>
+
+                    <h3 class="introduce__heading">
+                        15. Chức năng Cập nhật - Xóa - Điều hướng
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Để sử dụng các chức năng này, bạn phải click chọn vào 1 hàng
+                        trên
+                        bảng trong <span class="bold">Tab Danh sách</span><br>
+                        <i class="fa-solid fa-circle"></i> Nút<span class="bold"> Edit</span> để cập nhật thông tin
+                        khóa học đang xem <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">Del</span> để xóa khóa học vừa chọn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Các nút điều hướng để di chuyển qua lại, quay về đầu hoặc
+                        cuối danh sách
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/sanpham2.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        16. Đặt hàng nước hoặc đồ ăn
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn các mặt hàng bên phải -> nhấn nút thanh toán để tạo hóa đơn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> Nút<span class="bold"> +</span> để tăng số lượng sản phẩm lên 1 <br>
+                        <i class="fa-solid fa-circle"></i> Nút <span class="bold">-</span> giảm sản phẩm xuống 1
+                        <br>
+                        <i class="fa-solid fa-circle"></i> các nút danh mục để di chuyên sang các sản phẩm khác
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/ordernuoc.png">
+                </img>
+            </div>
+
+           
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        17. Đặt Box
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn box bên phải -> chọn giờ -> nhấn thanh toán để tạo hóa đơn
+                        <br>
+                        <i class="fa-solid fa-circle"></i> các nút danh mục để di chuyên sang các sản phẩm khác
+                    </p><br>
+                    </p>
+                </div>
+                <img class="introduce__img" src="./assets/images/orderBox.png">
+                </img>
+            </div>
+
+            <div id="introduce" class="introduce">
+                <div class="introduce__info">
+                    <h3 class="introduce__heading">
+                        18. Xem thống kê
+                    </h3>
+                    <p class="introduce__desc">
+                        <i class="fa-solid fa-circle"></i> Chọn các thống kê phù hợp để xem <br>
+                        <i class="fa-solid fa-circle"></i> Lựa chọn phương thức hiển thị 7 ngày  - 7 tháng - 7 năm và khoản thời gian <br>
+                        <i class="fa-solid fa-circle"></i> CHọn lịch sử bán hàng để xem lịch sử bán hàng <br>
+                    </p><br>
+                </div>
+                <img class="introduce__img" src="./assets/images/Home.png">
+                </img><br>
+            </div>
+
+            
+            <!--  ko phai -->
+            <div class="progress">
+                <h3 class="progress__heading">ProCode hiện có: </h3>
+                <div class="progress__content">
+                    <div class="progress__item">
+                        <ion-icon name="school-outline"></ion-icon>
+                        <p class="number">2000+</p>
+                        <p>Học viên</p>
+                    </div>
+                    <div class="progress__item">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                        <p class="number">90%</p>
+                        <p>Có việc làm đúng chuyên ngành</p>
+                    </div>
+                    <div class="progress__item">
+                        <ion-icon name="server-outline"></ion-icon>
+                        <p class="number">30%</p>
+                        <p>Thu nhập cao hơn mức lương trung bình khoảng 30%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mission" class="mission">
+                <h3 class="mission__heading">Tầm nhìn & Sứ mệnh của ProCode</h3>
+                <p>Pro-Code hướng tới mục tiêu sẽ có trên 10.000 học viên đến năm 2024 và có trên 90% học viên có việc
+                    làm sau khi hoàn thành những khóa học Lập Trình ở Pro-Code.</p>
+                <p class="mission__desc"><span>Sứ mệnh của ProCode</span> là không ngừng nỗ lực với mong muốn tạo ra
+                    hàng ngàn Lập Trình Viên chất lượng cao cho các doang nghiệp ở Việt Nam nói chung và ở nước ngoài
+                    nói riêng. <br>
+                    Nâng tầm vị thế của việc dạy và học Lập Trình Online ở Việt Nam.
+                </p>
+            </div>
+
+            <div id="mentors" class="mentors">
+                <h3 class="mentors__heading">Đội ngũ Mentor</h3>
+                <div class="mentors__list">
+                    <div class="mentors__item">
+                        <img src="./assets/images/mentor1.jpg" alt="" class="mentors__img">
+                        <div class="mentors__info">
+                            <p class="mentors__name">Nguyễn Huy Toàn</p>
+                            <p class="mentors__exp">
+                                Tốt nghiệp bằng Xuất sắc khoa CNTT ĐH Bách Khoa, kinh nghiệm 3 năm HTML, CCS.
+                            </p>
+                            <div class="mentors__socials">
+                                <a href="https://www.facebook.com/profile.php?id=100070426817385"
+                                    class="mentors__link"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" class="mentors__link"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/?lang=en" class="mentors__link"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/" class="mentors__link"><i
+                                        class="fa-solid fa-headphones-simple"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mentors__item">
+                        <img src="./assets/images/mentor7.jpg" alt="" class="mentors__img">
+                        <div class="mentors__info">
+                            <p class="mentors__name">Nguyễn Tuấn Anh</p>
+                            <p class="mentors__exp">Học tại FPT Polytechnic, kinh nghiệm 6 tháng giảng dạy, làm dự án.
+                            </p>
+                            <div class="mentors__socials">
+                                <a href="https://www.facebook.com/profile.php?id=100070426817385"
+                                    class="mentors__link"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" class="mentors__link"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/?lang=en" class="mentors__link"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/" class="mentors__link"><i
+                                        class="fa-solid fa-headphones-simple"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mentors__item">
+                        <img src="./assets/images/mentor6.png" alt="" class="mentors__img">
+                        <div class="mentors__info">
+                            <p class="mentors__name">Phạm D.O.</p>
+                            <p class="mentors__exp">Hiện đang là giảng viên Software engineering tại trường đại học FPT
+                            </p>
+                            <div class="mentors__socials">
+                                <a href="https://www.facebook.com/profile.php?id=100070426817385"
+                                    class="mentors__link"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" class="mentors__link"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/?lang=en" class="mentors__link"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/" class="mentors__link"><i
+                                        class="fa-solid fa-headphones-simple"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mentors__item">
+                        <img src="./assets/images/mentor3.jpg" alt="" class="mentors__img">
+                        <div class="mentors__info">
+                            <p class="mentors__name">La Lisa</p>
+                            <p class="mentors__exp">Giảng viên dạy lập trình nữ duy nhất tại Pro-Code, với hơn 6 năm
+                                kinh nghiệm</p>
+                            <div class="mentors__socials">
+                                <a href="https://www.facebook.com/profile.php?id=100070426817385"
+                                    class="mentors__link"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" class="mentors__link"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/?lang=en" class="mentors__link"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/" class="mentors__link"><i
+                                        class="fa-solid fa-headphones-simple"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mentors__item">
+                        <img src="./assets/images/mentor4.jpg" alt="" class="mentors__img">
+                        <div class="mentors__info">
+                            <p class="mentors__name">Cha Eunwoo</p>
+                            <p class="mentors__exp">Sinh viên ưu tú nhất của trường ĐH CNTT, giải nhất cuộc thi Lập
+                                trình toàn quốc.</p>
+                            <div class="mentors__socials">
+                                <a href="https://www.facebook.com/profile.php?id=100070426817385"
+                                    class="mentors__link"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/?hl=en" class="mentors__link"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/?lang=en" class="mentors__link"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/" class="mentors__link"><i
+                                        class="fa-solid fa-headphones-simple"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- container end -->
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__container grid wide">
+                <div class="footer__socials">
+                    <a href="index.html" class="footer__logo">
+                        <i class="fas fa-lightbulb"></i>PRO-CODE
+                    </a>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Tòa nhà Home Town, 132 đường 3/2, P. Hưng Lợi, Q. Ninh Kiều, TP. Cần Thơ
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@procode.edu.vn
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        0964.909.321 (Zalo)
+                    </p>
+                    <div class="footer__icons">
+                        <a href="https://www.facebook.com/profile.php?id=100070426817385" class="footer__icons-link"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" class="footer__icons-link"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=en" class="footer__icons-link"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" class="footer__icons-link"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer__quick-links">
+                    <h4>Về chúng tôi</h4>
+                    <a href="index.html">Trang chủ</a>
+                    <a href="about.html">Giới thiệu về ProCode</a>
+                    <a href="course.html">Chương trình học</a>
+                    <a href="course-details.html">Chi tiết khóa học</a>
+                    <a href="contact.html">Liên hệ</a>
+                </div>
+                <div class="footer__useful-links">
+                    <h4>Học gì ở ProCode</h4>
+                    <a href="course.html#front-end">Lập trình Front-End</a>
+                    <a href="course.html#back-end">Lập trình Back-End</a>
+                    <a href="course.html#OOP">Lập trình di động</a>
+                    <a href="course.html#front-end">Giao diện người dùng UX/UI</a>
+                    <a href="course.html#front-end">Công nghệ Blockchain</a>
+                </div>
+                <div class="footer-news-letter">
+                    <div class="wrapper">
+                        <h4>Đăng ký nhận tin</h4>
+                        <label for="">Nhấn đăng ký để nhận những update mới nhất</label>
+                        <input class="footer-news-letter__input" type="text" placeholder="Nhập email của bạn">
+                        <input type="submit" value="Submit" class="submit-btn btn">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Create by Ha Lam</p>
+            </div>
+        </footer>
+        <!-- footer end-->
+
+    </div>
+
+
+    <!-- JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/main.js">
+    </script>
+</body>
+
+</html>

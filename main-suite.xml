@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="main-suite" parallel="false">
+	<test name="suite-test" parallel="false">
+		<classes>
+			<class name="BoxDaoTest" />
+			<class name="ComboDaoTest" />
+			<class name="HoaDonDaoTest" />
+			<class name="KhuyenMaiDaoTest" />
+			<class name="NhanVienDaoTest" />
+			<class name="SanPhamDaoTest" />
+		</classes>
+	</test>
+</suite>
